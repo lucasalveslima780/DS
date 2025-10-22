@@ -6,10 +6,6 @@ package br.edu.etec.Exercicio2.model;
 
     public class Retangulo extends Forma{
 
-    public Retangulo(double base, double altura) {
-        this.base = base;
-        this.altura = altura;
-    }
     double base;
     double altura;
         
@@ -17,4 +13,11 @@ package br.edu.etec.Exercicio2.model;
     public double calcularArea() {
         return base*altura;
     }
+        
+        
+    public Retangulo(double base, double altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
     }

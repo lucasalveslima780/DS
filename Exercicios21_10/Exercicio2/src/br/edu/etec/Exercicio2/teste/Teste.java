@@ -13,7 +13,9 @@ public class Teste {
         Forma circulo = new Circulo(5);
         Forma retangulo = new Retangulo(6,5);
         
-   
+        System.out.println("Area do circulo: " + circulo.calcularArea());
+        System.out.println("Area do retangulo: " + retangulo.calcularArea());   
+        
          circulo.calcularArea();
         retangulo.calcularArea();
     }
