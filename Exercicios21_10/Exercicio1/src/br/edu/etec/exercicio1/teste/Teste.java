@@ -11,9 +11,11 @@ import br.edu.etec.exercicio1.model.Gato;
 public class Teste {
     public static void main(String[] args) {
         Animal cachorro = new Cachorro();
-        Animal gato = new Gato();
-        
+        System.out.println("E o cachorro entao latiu: ");
         cachorro.fazerSom();
+        
+        Animal gato = new Gato();
+        System.out.println("Ja o gato miou: ");
         gato.fazerSom();
     }
 }

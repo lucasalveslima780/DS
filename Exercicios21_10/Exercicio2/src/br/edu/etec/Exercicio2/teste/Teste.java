@@ -16,7 +16,7 @@ public class Teste {
         System.out.println("Area do circulo: " + circulo.calcularArea());
         System.out.println("Area do retangulo: " + retangulo.calcularArea());   
         
-         circulo.calcularArea();
+        circulo.calcularArea();
         retangulo.calcularArea();
     }
    }
